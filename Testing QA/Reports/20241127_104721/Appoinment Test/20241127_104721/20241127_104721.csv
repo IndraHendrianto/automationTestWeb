@@ -1,0 +1,33 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Appoinment Test,Chrome 131.0.0.0,,,2024-11-27 10:47:37,2024-11-27 10:48:43,"1m - 5,390s",PASSED
+,,,,,,,
+Test Cases/Appointment/Appoinment Positive,Chrome 131.0.0.0,,,2024-11-27 10:47:38,2024-11-27 10:48:05,"26,480s",PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login-Positive""), null, STOP_ON_FAILURE)",Chrome 131.0.0.0,Given i already login the website,,2024-11-27 10:47:39,2024-11-27 10:47:54,"15,093s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 131.0.0.0,When i choose the faculity,,2024-11-27 10:47:54,2024-11-27 10:47:55,"0,568s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 131.0.0.0,and i checklist Apply for hospital readmission,,2024-11-27 10:47:55,2024-11-27 10:47:55,"0,485s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 131.0.0.0,and i click the calendar,,2024-11-27 10:47:55,2024-11-27 10:47:56,"0,527s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_21""))",Chrome 131.0.0.0,And i choose the date,,2024-11-27 10:47:56,2024-11-27 10:47:56,"0,677s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Comment""))",Chrome 131.0.0.0,And i click outside of the calendar,,2024-11-27 10:47:56,2024-11-27 10:47:57,"0,795s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Testing"")",Chrome 131.0.0.0,And i input the comment,,2024-11-27 10:47:57,2024-11-27 10:47:58,"0,877s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 131.0.0.0,And i click the booking button,,2024-11-27 10:47:58,2024-11-27 10:47:59,"0,909s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 131.0.0.0,Then i verified succesfully confirmation appointmenr,,2024-11-27 10:47:59,2024-11-27 10:47:59,"0,598s",PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Close-Browser""), null, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,2024-11-27 10:47:59,2024-11-27 10:48:05,"5,139s",PASSED
+,,,,,,,
+Test Cases/Appointment/Appointment Negative,Chrome 131.0.0.0,,,2024-11-27 10:48:05,2024-11-27 10:48:21,"16,566s",PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login-Positive""), null, STOP_ON_FAILURE)",Chrome 131.0.0.0,Given i already login the website,,2024-11-27 10:48:05,2024-11-27 10:48:16,"10,683s",PASSED
+"click(findTestObject(""Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 131.0.0.0,When i click the booking button,,2024-11-27 10:48:16,2024-11-27 10:48:17,"0,909s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_November 2024SuMoTuWeThFrSa272829303112_1e78dd""), 0)",Chrome 131.0.0.0,Then i verify callendar will appear because field date is required,,2024-11-27 10:48:17,2024-11-27 10:48:18,"0,919s",PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Close-Browser""), null, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,2024-11-27 10:48:18,2024-11-27 10:48:21,"3,496s",PASSED
+,,,,,,,
+Test Cases/Appointment/Appointment Positive Negative,Chrome 131.0.0.0,,,2024-11-27 10:48:21,2024-11-27 10:48:43,"21,611s",PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Login-Positive""), null, STOP_ON_FAILURE)",Chrome 131.0.0.0,Given i already login the website,,2024-11-27 10:48:22,2024-11-27 10:48:32,"10,020s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 131.0.0.0,When i choose the facility,,2024-11-27 10:48:32,2024-11-27 10:48:33,"0,762s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 131.0.0.0,and i checklist Apply for hospital readmission,,2024-11-27 10:48:33,2024-11-27 10:48:33,"0,458s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34""))",Chrome 131.0.0.0,and i click the calendar,,2024-11-27 10:48:33,2024-11-27 10:48:33,"0,470s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/th_""))",Chrome 131.0.0.0,and i click previous month,,2024-11-27 10:48:33,2024-11-27 10:48:34,"0,525s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_1""))",Chrome 131.0.0.0,and i click choose back date for visit,,2024-11-27 10:48:34,2024-11-27 10:48:35,"0,984s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Comment""))",Chrome 131.0.0.0,And i click outside of the calendar,,2024-11-27 10:48:35,2024-11-27 10:48:36,"0,618s",PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), ""Test backdate for visit"")",Chrome 131.0.0.0,And i input the comment,,2024-11-27 10:48:36,2024-11-27 10:48:37,"0,936s",PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 131.0.0.0,And i click the booking button,,2024-11-27 10:48:37,2024-11-27 10:48:38,"1,294s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 131.0.0.0,Then i verified succesfully confirmation appointment in back date,,2024-11-27 10:48:38,2024-11-27 10:48:38,"0,457s",PASSED
+"callTestCase(findTestCase(""Test Cases/Login/Close-Browser""), null, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,2024-11-27 10:48:38,2024-11-27 10:48:43,"4,530s",PASSED
